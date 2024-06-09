@@ -1,0 +1,370 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: #2b2b2b;
+    padding: 10px;
+}
+
+nav {
+    border: none;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333333;
+    font-size: 20px;
+}
+
+h1 {
+    color:#f4f4f4;
+} 
+
+h2 {
+    color: #890D07;
+}
+
+article {
+    margin: 30px;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    margin-top: auto;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+hr {
+    width: 95%;
+}
+
+span {
+    font-size: larger;
+}
+
+.Creditos {
+    display: inline;
+    color: #83959c;
+}
+
+#link {
+    text-decoration: underline;
+}
+
+.Title {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: .7;
+    text-align: center;
+    margin: 0;
+}
+
+.foot {
+    color: #83959c;
+}
+
+.contLogo {
+    position: absolute;
+    justify-self: unset;
+    align-items: flex-start;
+    top: auto;
+    left: 60px;
+}
+
+#logo {
+    width: 50%;
+    height: auto;
+    justify-self: flex-start;
+}
+
+
+#title {
+    color: #fff;
+}
+
+.destinos {
+    display: flex;
+    flex-direction: column;
+    width: 62%;
+    align-items:center;
+    padding: 2em .5em;
+    justify-content: space-around;
+    float: right;
+    border-radius: 3%;
+    background-color: rgba(213, 216, 220, 50%);
+}
+
+.secMain {
+    display: flex;
+    justify-content: center;
+}
+
+.Map {
+    width: 500px;
+    height: auto;
+    margin: 30px 0;
+}
+
+.regions {
+    margin: 20px 30px;
+}
+
+.cont-img-regs {
+    overflow: hidden;
+}
+
+.imgRegs {
+    width: 249px;
+    height: 167.234px;
+    border: none;
+    margin: 10px 10px;
+    transition: transform .2s;
+}
+
+.imgRegs:hover {
+    transform: scale(1.2); 
+}
+
+.contReg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 10px;
+    flex-wrap: wrap;
+}
+
+.listReg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imgcen {
+    font-weight: 700;
+    font-size: larger;
+    color: #000;
+    background-color: rgba(213, 216, 220, 70%);;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.anchReg {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.parent-reg {
+    display: flex;
+    justify-content: center;
+}
+
+.contimg-reg {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-regiones {
+    font-size: 50px;
+}
+
+#JapanReg {
+    width: 70%;
+}
+
+/*--------------------------------------------Regiones-------------------------------------------------*/
+
+.destino-desc {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.prefecturastxt {
+    font-size: 23px;
+}
+
+.container-esp {
+    display: flex;
+    justify-content: center;
+}
+
+.Esp {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 0;
+    width: 80%;
+    background-color: rgba(213, 216, 220, 70%);
+    border-radius: 10px;
+}
+
+.esptitle {
+    display: inline;
+    margin: 0 1.75em;
+    flex-grow: 2;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+.espul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.esplist {
+    display: flex;
+    width: 50%;
+    font-weight: 550;
+}
+
+.espinf {
+    width: auto;
+    padding: 0 1em;
+    margin-top: 1em;
+    display: flex;
+}
+
+.espimg {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.espimg-inner {
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    transform: translateZ(0);
+    width: 150px;
+    height: auto;
+}
+
+.espname {
+    font-weight: 1000;
+    direction: ltr;
+}
+
+.espname-txt {
+    vertical-align: middle;
+    transition: color .3s;
+}
+
+.espdesc {
+    font-size: large;
+}
+
+.asideMap {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#txtHokka {
+    position: absolute;
+    top: 15%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+#txtToho {
+    position: absolute;
+    top: 40%;
+    left: 67.5%;
+    transform: translate(-50%, -50%);
+}
+
+/*---------------------------Prefecturas---------------------*/
+
+.parent-pref {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: rgba(213, 216, 220, 70%);
+}
+
+#Cont-volver {
+    position: relative;
+    padding: 1em;
+}
+
+.Breadcrumb {
+    padding: 1em 1em 0;
+    font-size: 20px;
+    background-color: rgba(213, 216, 220, 70%);
+}
+
+.Breadcrumb > b > a {
+    color: #000;
+    font-weight: 800;
+}
+
+#txtAomori {
+    position: absolute;
+    top: 17%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#txtAkita {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#txtIwate {
+    position: absolute;
+    top: 42%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+
+#txtYamagata {
+    position: absolute;
+    top: 56%;
+    left: 41.5%;
+    transform: translate(-50%, -50%);
+}
+
+#txtMiyagi {
+    position: absolute;
+    top: 46%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+#txtFukushima {
+    position: absolute;
+    top: 62%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+}
